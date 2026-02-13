@@ -1,0 +1,29 @@
+.nav {
+    background-color: #1e90ff; /* changed from rgb(57,180,252) to DodgerBlue */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* added some horizontal padding */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    gap: 10px;
+}
+
+.link a {
+    color: white; /* changed from black for better contrast */
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.link a:hover {
+    color: #ffeb3b; /* yellow on hover for highlight */
+    transition: 0.3s;
+}
